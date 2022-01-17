@@ -1,0 +1,48 @@
+# Rime table
+# coding: utf-8
+
+⌘	cmd
+⌃	ctl
+⌥	opt
+⇧	shift
+Apple	apple
+Apple ID	appleid
+macOS	macos	5
+macOS Monterey	macos	4
+macOS BigSur	macos	3
+macOS Mojave	macos	2
+iOS	ios
+iPhone	iphone
+iPad	ipad
+iMac	imac
+iPod	ipod
+Mac	mac
+MacBook Pro	mbp
+MacBook	macbook
+iCloud	icloud
+iTunes	itunes
+Mac App Store	mas
+GBK	gbk
+UTF-8	utf
+Linux	linux
+CSS	css
+HTML html
+JavaScript js
+TypeScript ts
+jQuery	jquery
+MySQL	mysql
+SQL	sql
+Ruby	ruby
+Rust	rust
+Python	python
+WeChat	wechat
+Swift	swift
+GitHub	github
+IPTV	iptv
+IPv4	ipv
+IPv6	ipv
+GNU/Linux	linux
+Xbox One	xbox
+YouTube	youtube
+Dropbox	dropbox
+Wi-Fi	wifi

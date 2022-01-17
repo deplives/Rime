@@ -1,0 +1,23 @@
+patch:
+  schema_list:
+    - schema: luna_pinyin_simp # 明月拼音
+
+  menu/page_size: 9 # 候选词个数
+
+  # 若caps切换大小写无效,打开系统偏好设置-键盘-输入法-取消勾选[使用大写锁定键切换“美国”输入模式]
+  ascii_composer/good_old_caps_lock: true # 若为true，caps只切换大小写
+  ascii_composer/switch_key:
+    Caps_Lock: noop
+    Shift_L: noop # 左Shift
+    Shift_R: noop # 右Shift
+    Control_L: noop # 左Control
+    Control_R: noop # 右Control
+
+  key_binder/bindings: # 快捷键
+    - { when: composing, accept: ISO_Left_Tab, send: Shift+Left }
+    - { when: composing, accept: Shift+Tab, send: Shift+Left } # "Shift+Tab" 键向左选拼音分词
+    - { when: composing, accept: Tab, send: Shift+Right } # "tab" 键选拼音分词
+    - { when: paging, accept: minus, send: Page_Up } # "-"上一页
+    - { when: has_menu, accept: equal, send: Page_Down } # "="下一页
+    - { when: paging, accept: bracketleft, send: Page_Up } # "["上一页
+    - { when: has_menu, accept: bracketright, send: Page_Down } # "]"下一页
