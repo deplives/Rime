@@ -27,7 +27,7 @@ iCloud	icloud
 iTunes	itunes
 Mac App Store	mas
 GBK	gbk
-UTF-8	utf
+UTF	utf
 Linux	linux
 CSS	css
 HTML html
@@ -39,7 +39,6 @@ SQL	sql
 Ruby	ruby
 Rust	rust
 Python	python
-WeChat	wechat
 Swift	swift
 GitHub	github
 IPTV	iptv
@@ -47,6 +46,4 @@ IPv4	ipv
 IPv6	ipv
 GNU/Linux	linux
 Xbox One	xbox
-YouTube	youtube
 Dropbox	dropbox
-Wi-Fi	wifi

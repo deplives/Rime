@@ -33,17 +33,17 @@ patch:
   #  载入扩充词库
   "translator/dictionary": luna_pinyin.extended
 
-  # 加载easy_en依赖
-  "schema/dependencies/@1": easy_en
-  # 载入翻译英文的码表翻译器，取名为 english
-  "engine/translators/@4": table_translator@english
-  # english翻译器的设定项
-  english:
-    dictionary: easy_en
-    spelling_hints: 9
-    enable_completion: true # 是否启用英文输入联想补全
-    enable_sentence: false # 混输时不出现带有图案的英文
-    initial_quality: -0.5 # 英文候选词的位置，可以尝试 0 到 0.5 左右的数值。数值越大，英文单词出现的就越靠前。
+  # # 加载easy_en依赖
+  # "schema/dependencies/@1": easy_en
+  # # 载入翻译英文的码表翻译器，取名为 english
+  # "engine/translators/@4": table_translator@english
+  # # english翻译器的设定项
+  # english:
+  #   dictionary: easy_en
+  #   spelling_hints: 9
+  #   enable_completion: true # 是否启用英文输入联想补全
+  #   enable_sentence: false # 混输时不出现带有图案的英文
+  #   initial_quality: -0.5 # 英文候选词的位置，可以尝试 0 到 0.5 左右的数值。数值越大，英文单词出现的就越靠前。
 
   # 符号快速输入和部分符号的快速上屏
   punctuator:
