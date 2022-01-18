@@ -46,4 +46,5 @@ IPv4	ipv
 IPv6	ipv
 GNU/Linux	linux
 Xbox One	xbox
-Dropbox	dropbox
+Wiki	wiki
+Bug	bug
