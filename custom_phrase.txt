@@ -16,7 +16,11 @@ iPhone	iphone
 iPad	ipad
 iMac	imac
 iPod	ipod
+HomePod	homepod	2
+HomePod mini	homepod	1
+Apple Watch	applewatch
 Mac	mac
+Mac mini	macmini
 MacBook Pro	mbp
 MacBook	macbook
 iCloud	icloud

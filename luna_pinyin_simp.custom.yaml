@@ -8,6 +8,9 @@ patch:
     - name: zh_simp
       reset: 1
       states: ["繁体中文", "简体中文"]
+    - name: show_emoji
+      reset: 1
+      states: ["关闭 Emoji", "启用 Emoji"]
   simplifier:
     option_name: zh_simp
 
@@ -23,7 +26,6 @@ patch:
     opencc_config: emoji.json
     option_name: show_emoji
     tags: abc
-    # tips: all    # Emoji 显示注释
 
   # 改写拼写运算，含英文的词汇（luna_pinyin.cn_en.dict.yaml）不影响简拼
   "speller/algebra/@before 0": xform/^([b-df-hj-np-tv-z])$/$1_/
