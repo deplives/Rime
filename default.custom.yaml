@@ -1,10 +1,24 @@
 patch:
   schema_list:
-    - schema: luna_pinyin_simp # 明月拼音
+    - schema: chinese # 简体中文
+
+  switcher:
+    abbreviate_options: true
+    caption: "〔方案选择〕"
+    fold_options: true
+    hotkeys:
+      - "Control+grave"
+      - F4
+    option_list_separator: "／"
+    save_options:
+      - full_shape
+      - ascii_punct
+      - simplification
+      - extended_charset
+      - zh_hans
 
   menu/page_size: 9 # 候选词个数
 
-  # 若caps切换大小写无效,打开系统偏好设置-键盘-输入法-取消勾选[使用大写锁定键切换“美国”输入模式]
   ascii_composer/good_old_caps_lock: true # 若为true，caps只切换大小写
   ascii_composer/switch_key:
     Caps_Lock: noop

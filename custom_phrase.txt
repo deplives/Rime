@@ -5,46 +5,121 @@
 ⌃	ctl
 ⌥	opt
 ⇧	shift
+
 Apple	apple
 Apple ID	appleid
-macOS	macos	5
-macOS Monterey	macos	4
-macOS BigSur	macos	3
-macOS Mojave	macos	2
-iOS	ios
+iCloud	icloud
+iTunes	itunes
+App Store	appstore
+Apple Store	applestore
+Finder	finder
+Safari	safari
+Touch ID	touchid
+Siri	siri
+AirDrop	airdrop
+AirPlay	airplay
+CarPlay	carplay
+HomeKit	homekit
+Handoff	handoff
+Lightning	lightning
 iPhone	iphone
 iPad	ipad
 iMac	imac
 iPod	ipod
-HomePod	homepod	2
-HomePod mini	homepod	1
 Apple Watch	applewatch
 Mac	mac
 Mac mini	macmini
 MacBook Pro	mbp
+MacBook Pro	macbookpro
 MacBook	macbook
-iCloud	icloud
-iTunes	itunes
-Mac App Store	mas
-GBK	gbk
-UTF	utf
+HomePod	homepod	2
+HomePod mini	homepod	1
+iOS	ios
+macOS	macos	4
+macOS Monterey	macos	3
+macOS BigSur	macos	2
+macOS Mojave	macos	1
+TestFlight	testflight
+WWDC	wwdc
+
 Linux	linux
-CSS	css
+UTF	utf
+GBK	gbk
+App	app
+Wi-Fi	wifi
+WiFi	wifi
+Retina	retina
+CHANEL	chanel
+Wiki	wiki
+Workflow	workflow
+Windows	windows
+USB	usb
+VPN	vpn
+Type-C	typec
+IP	ip
+IPv4	ipv
+IPv6	ipv
+IPTV	iptv
+
 HTML html
+CSS	css
 JavaScript js
 TypeScript ts
 jQuery	jquery
-MySQL	mysql
-SQL	sql
+
 Ruby	ruby
 Rust	rust
 Python	python
 Swift	swift
+SQL	sql
+MySQL	mysql
 GitHub	github
-IPTV	iptv
-IPv4	ipv
-IPv6	ipv
-GNU/Linux	linux
-Xbox One	xbox
-Wiki	wiki
+
+Vim	vim
 Bug	bug
+Debug	debug
+PyCharm	pycharm
+Visual Studio Code	vscode
+VSCode	vscode
+Navicat	navicat
+iTerm	iterm
+Postman	postman
+Proxyman	proxyman
+HHKB	hhkb
+
+Google	google
+Microsoft	microsoft
+Word	word
+Excel	excel
+PowerPoint	ppt
+Gmail	gmail
+YouTube	youtube
+Android	android
+Chrome	chrome
+Dropbox	dropbox
+bilibili	bilibili
+Netflix	netflix
+Nvidia	nvidia
+OneNote	onenote
+PayPal	paypal
+Telegram	telegram
+Twitter	twitter
+Typora	typora
+Xbox	xbox
+
+Adidas	adidas
+BenQ	benq
+BMW	bmw
+BVLGARI	bvlgari
+Dior	dior
+FRED	fred
+GAP	gap
+Gucci	gucci
+Hermès	hermes
+Nokia	nokia
+Lenovo	lenovo
+Sony	sony
+Tiffany	tiffany
+Versace	versace
+ZARA	zara
+Rime	rime
