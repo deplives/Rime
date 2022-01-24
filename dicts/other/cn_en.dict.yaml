@@ -1,0 +1,19 @@
+# Rime cn_en
+# encoding: utf-8
+
+---
+name: cn_en
+version: "2021.01.22"
+sort: by_weight
+use_preset_vocabulary: true
+...
+
+git	git
+ls	ls
+cd	cd
+pwd	pwd
+docker	docker
+ps	ps
+bash	bash
+source	source
+rm	rm

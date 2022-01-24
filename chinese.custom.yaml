@@ -1,0 +1,46 @@
+patch:
+  switches:
+    - name: ascii_mode
+      reset: 0
+      states: ["中文", "英文"]
+    - name: full_shape
+      states: ["半角", "全角"]
+    - name: zh_simp
+      reset: 1
+      states: ["繁体中文", "简体中文"]
+    - name: show_emoji
+      reset: 1
+      states: ["关闭 Emoji", "启用 Emoji"]
+  simplifier:
+    option_name: zh_simp
+
+  engine/filters:
+    - simplifier
+    - simplifier@emoji_conversion
+    - uniquifier
+    - charset_filter@gbk
+    - single_char_filter
+
+  emoji_conversion:
+    opencc_config: emoji.json
+    option_name: show_emoji
+    tags: abc
+
+  "speller/algebra/@before 0": xform/^([b-df-hj-np-tv-z])$/$1_/
+
+  "translator/dictionary": chinese.extended
+
+  punctuator:
+    import_preset: symbols
+    symbols:
+      "/mac": [⌘, ⌥, ⇧, ⌃, ⎋, ⇪, , ⌫, ⌦, ↩︎, ⏎, ↑, ↓, ←, →, ↖, ↘, ⇟, ⇞]
+
+  recognizer/patterns/punct: "^/([a-z]+|[0-9]0?)$"
+
+  "speller/algebra":
+    - erase/^xx$/
+
+    - abbrev/^([a-z]).+$/$1/
+    - abbrev/^([zcs]h).+$/$1/
+
+  "engine/translators/@6": lua_translator@date_translator

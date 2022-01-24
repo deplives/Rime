@@ -1,0 +1,34 @@
+# Rime 补充
+# encoding: utf-8
+
+---
+name: chinese.extended
+version: "2022.01"
+sort: by_weight
+use_preset_vocabulary: true
+import_tables:
+  - dicts/base/word
+  - dicts/base/phrase
+
+  - dicts/extend/city
+  - dicts/extend/computer
+  - dicts/extend/humanities
+  - dicts/extend/life
+  - dicts/extend/medicine
+  - dicts/extend/natural
+
+  - dicts/thuocl/animal
+  - dicts/thuocl/caijing
+  - dicts/thuocl/car
+  - dicts/thuocl/chengyu
+  - dicts/thuocl/diming
+  - dicts/thuocl/food
+  - dicts/thuocl/it
+  - dicts/thuocl/law
+  - dicts/thuocl/lishimingren
+  - dicts/thuocl/medical
+  - dicts/thuocl/poem
+
+  - dicts/other/chaizi
+  - dicts/other/cn_en
+
